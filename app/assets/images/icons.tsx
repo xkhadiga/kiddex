@@ -164,10 +164,9 @@ export function RightArrIcon(props: React.SVGProps<SVGSVGElement>) {
     {...props}
   >
     <path
-      stroke="#000"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
+      strokeWidth={3}
       d="M4 12h16m0 0-4-4m4 4-4 4"
     />
   </svg>
@@ -191,16 +190,14 @@ export function UpArrIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 export function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
   return(
-   <svg
+  <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
+    xmlSpace="preserve"
+
+    viewBox="-143 145 512 512"
     {...props}
   >
-    <path
-      fill="#000"
-      d="M20 12.05a8 8 0 1 0-9.25 8v-5.67h-2v-2.33h2v-1.77a2.83 2.83 0 0 1 3-3.14c.6.008 1.198.062 1.79.16v2h-1a1.16 1.16 0 0 0-1.3 1.26v1.51h2.22l-.36 2.33h-1.85V20A8 8 0 0 0 20 12.05Z"
-    />
+    <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zm56.5 212.6-2.9 38.3h-39.3v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3.3-28.8 8.5-39.7 8.7-11.5 20.6-19.3 41.1-19.3 33.4 0 47.4 4.8 47.4 4.8l-6.6 39.2s-11-3.2-21.3-3.2-19.5 3.7-19.5 14v29.9h42.2z" />
   </svg>
   )
 }
@@ -209,8 +206,7 @@ export function LinkdenIcon(props: React.SVGProps<SVGSVGElement>) {
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={200}
-    height={200}
+
     viewBox="-143 145 512 512"
     {...props}
   >
@@ -223,8 +219,7 @@ export function TwitterIcon(props: React.SVGProps<SVGSVGElement>) {
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={200}
-    height={200}
+ 
     viewBox="-143 145 512 512"
     {...props}
   >
