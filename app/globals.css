@@ -6,12 +6,34 @@
   --sec-color-2:#f9c6d4;
   --main-border: 1px dashed #f76188;
   --text-muted: #666b74;
+  --text-color:#121212;
 }
 button{
   cursor: pointer;
 }
 
+*{
+  transition: all .3s ease;
+}
+.main-btn{
+  display: flex;
+  background-color: white;
+  color: var(--main-color);
+  border: 1px dashed var(--main-color);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor:pointer;
+  z-index: 10;
+  font-weight: bold;
+  font-size: large;
+  width: fit-content;
+}
+.main-btn:hover {
+  background-color: var(--main-color);
+    border: 1px dashed white;
 
+  color: white;
+}
 
 /* Loader Component */
 .text-loading {
